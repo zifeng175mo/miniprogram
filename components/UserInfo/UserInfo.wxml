@@ -1,0 +1,9 @@
+<view class="user-info">
+    <image src="{{avatar}}" class="avatar" />
+    <cell-group>
+        <cell title="昵称" value="{{name}}" class="nick-name"/>
+        <cell title="性别" wx:if="{{gender==0}}" value="未知" class="gender"/>
+        <cell title="性别" wx:if="{{gender==1}}" value="男" class="gender" />
+        <cell title="性别" wx:if="{{gender==2}}" value="女" class="gender" />
+    </cell-group>
+</view>

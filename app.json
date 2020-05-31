@@ -10,6 +10,10 @@
       {
         "pagePath": "pages/user/user",
         "text": "我的"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "卡片"
       }
     ]
   },

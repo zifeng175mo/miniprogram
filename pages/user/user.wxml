@@ -1,0 +1,3 @@
+<UserInfo name="{{name}}" gender="{{gender}}" avatar="{{avatar}}">
+
+</UserInfo>
