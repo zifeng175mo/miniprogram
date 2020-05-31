@@ -1,0 +1,21 @@
+.user-info {
+    width:100%;
+    height:400rpx;
+    font-size: 30rpx;
+    background: #FFF;
+    box-shadow: 100rpx 0 100rpx 10rpx #EEE;
+    overflow:hidden;
+}
+.avatar {
+    width: 100rpx;
+    height:100rpx;
+    overflow:hidden;
+}
+
+.nick-name {
+
+}
+
+.gender {
+
+}
