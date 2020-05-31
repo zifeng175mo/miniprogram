@@ -1,8 +1,11 @@
 <!--components/card/card.wxml-->
 <view class="card">
+    <tag  wx:if="{{finish}}"mark type="primary" class="position">完成</tag>
+    <tag  wx:else mark type="warning" class="position">未完成</tag>
     <image src="/media/img/1.jpg" class="image"></image>
-    <view class="card-title">标题</view>
-    <view class="card-finish">完成</view>
+    <view class="card-title">{{title}}</view>
+    <view wx:if="{{finish}}" class="card-finish">完成</view>
+    <view wx:else class="card-finish">未完成</view>
     <view class="deadline-box">
         <view class="deadline">{{deadline}}</view>
     </view>

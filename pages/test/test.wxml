@@ -1,4 +1,4 @@
 <!--pages/test/test.wxml-->
-<card deadline="{{deadline}}">
+<CardList cardlist="{{cardlist}}">
 
-</card>
+</CardList>

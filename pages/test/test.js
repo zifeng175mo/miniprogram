@@ -5,7 +5,26 @@ Page({
    * 页面的初始数据
    */
   data: {
-    deadline: '2017-08-09'
+    cardlist:[
+      {
+        title: '标题1',
+        deadline: '2017-08-09',
+        img: '/media/img/1.jpg',
+        finish: true
+      },
+      {
+        title: '标题2',
+        deadline: '2017-10-28',
+        img: '/media/img/1.jpg',
+        finish: false
+      },
+      {
+        title: '标题3',
+        deadline: '2017-10-28',
+        img: '/media/img/1.jpg',
+        finish: false
+      }
+    ]
   },
 
   /**

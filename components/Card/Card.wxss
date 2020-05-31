@@ -8,6 +8,14 @@
     box-shadow: 100rpx 0 100rpx 10rpx #EEE;
 }
 
+.position {
+    position: relative;
+    top: 40rpx;
+    width: 80rpx;
+    height: 80rpx;
+}
+
+
 .image {
     width: 340rpx;
     height: 210rpx;
