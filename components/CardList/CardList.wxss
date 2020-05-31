@@ -1,6 +1,6 @@
 /* components/CardList/CardList.wxss */
 .card-box {
-    margin-left: 20rpx;
-    display: inline-block;
+    margin-left: 25rpx;
     margin-bottom: 30rpx;
+    display: inline-block;
 }
