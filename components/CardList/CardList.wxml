@@ -1,0 +1,4 @@
+<!--components/CardList/CardList.wxml-->
+<view wx:for="{{cardlist}}" wx:key="index" class="card-box">
+    <Card title="{{item.title}}" deadline="{{item.deadline}}" img="{{item.img}}" finish="{{item.finish}}"></Card>
+</view>

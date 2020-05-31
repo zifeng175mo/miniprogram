@@ -1,0 +1,76 @@
+/* components/card/card.wxss */
+.card {
+    width: 340rpx;
+    height: 400rpx;
+    font-size: 36rpx;
+    color: #777;
+    background: #FFF;
+    border-radius: 15rpx;
+    box-shadow: 100rpx 0 100rpx 10rpx #EEE;
+    overflow: hidden;
+}
+
+.position {
+    position: relative;
+    top: 0rpx;
+    width: 80rpx;
+    height: 80rpx;
+}
+
+.image {
+    margin-top: -50rpx;
+    width: 340rpx;
+    height: 400rpx;
+    border-radius: 15rpx;
+}
+
+.mask {
+    width: 340rpx;
+    height: 400rpx;
+    z-index: 9999;
+    top: -541rpx;
+    opacity: 0.3;
+    position: relative;
+    background-color: #fff;
+}
+
+.card-title {
+    font-size: 36rpx;
+    font-weight: bold;
+    position: relative;
+    height: 70rpx;
+    top: -140rpx;
+    left: 20rpx;
+    color: black;
+    display: inline-block;
+    line-height: 48rpx;
+}
+
+.card-finish {
+    display: inline-block;
+    height: 40rpx;
+    float: right;
+    font-size: 28rpx;
+    color: gray;
+    margin: 10rpx 30rpx;
+}
+
+.deadline-box {
+    position: relative;
+    height: 70rpx;
+    top: -140rpx;
+    left: 20rpx;
+    padding-bottom: 10rpx;
+    font-size: 28rpx;
+    width: 340rpx;
+}
+
+
+.deadline {
+    text-align: left;
+    width: 340rpx;
+    font-weight: bold;
+    color: black;
+    margin-top: -15rpx;
+}
+

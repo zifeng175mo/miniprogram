@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "Card": "/components/Card/Card"
+  },
+  "styleIsolation": "isolated"
+}

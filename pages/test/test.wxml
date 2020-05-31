@@ -1,0 +1,4 @@
+<!--pages/test/test.wxml-->
+<CardList cardlist="{{cardlist}}">
+
+</CardList>
