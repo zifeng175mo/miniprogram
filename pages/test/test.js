@@ -31,7 +31,25 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    // wx.request({
+    //   url: '',
+    //   data: {
+    //     openid: '',
+    //     type: 'cardlist'
+    //   },
+    //   method: 'POST',
+    //   header: {
+    //     'content-type': 'application/json' //默认值
+    //   },
+    //   success: res=> {
+    //     this.setData({
+    //
+    //     })
+    //
+    //   },
+    //   fail: res=> {
+    //   }
+    // })
   },
 
   /**
