@@ -1,6 +1,6 @@
 <!--pages/test/test.wxml-->
 
-<Screen></Screen>
+<Search ></Search>
 <CardList cardlist="{{cardlist}}">
 
 </CardList>

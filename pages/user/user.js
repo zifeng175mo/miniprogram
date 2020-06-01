@@ -8,6 +8,7 @@ Page({
         name: 'YRTSWEZ',
         gender: 1,
         avatar: '/media/img/1.jpg',
+        signature: '我思故我在~'
     },
 
     /**

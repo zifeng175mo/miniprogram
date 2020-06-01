@@ -19,6 +19,10 @@ Component({
         avatar: {
             type: String,
             value: ''
+        },
+        signature: {
+            type: String,
+            value: ''
         }
     },
 
@@ -29,7 +33,8 @@ Component({
         openId: '9212881',
         name: '流水恋落花',
         gender: 1,
-        avatar: '/media/img/1.jpg'
+        avatar: '/media/img/1.jpg',
+        signature: '我思故我在~'
     },
 
     /**

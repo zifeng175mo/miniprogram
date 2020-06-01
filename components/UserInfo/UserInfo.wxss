@@ -1,21 +1,35 @@
 .user-info {
     width:100%;
-    height:400rpx;
+    height:510rpx;
     font-size: 30rpx;
     background: #FFF;
     box-shadow: 100rpx 0 100rpx 10rpx #EEE;
     overflow:hidden;
 }
-.avatar {
+.img {
     width: 100rpx;
-    height:100rpx;
-    overflow:hidden;
+    height: 100rpx;
+    right: 20rpx;
+    top:auto;
+    bottom:auto;
+    position: absolute;
 }
 
+.avatar-style {
+    display:flex;
+}
 .nick-name {
 
 }
 
 .gender {
+
+}
+
+.signature {
+
+}
+
+.about-us {
 
 }
