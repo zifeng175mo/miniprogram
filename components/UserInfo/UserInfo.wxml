@@ -1,9 +1,14 @@
 <view class="user-info">
-    <image src="{{avatar}}" class="avatar" />
+    <view class="avatar-style">
+        <cell title="头像" />
+        <image src="{{avatar}}" class="img"></image>
+    </view>
     <cell-group>
-        <cell title="昵称" value="{{name}}" class="nick-name"/>
-        <cell title="性别" wx:if="{{gender==0}}" value="未知" class="gender"/>
-        <cell title="性别" wx:if="{{gender==1}}" value="男" class="gender" />
-        <cell title="性别" wx:if="{{gender==2}}" value="女" class="gender" />
+        <cell title="昵称" value="{{name}}" class="nick-name" />
+        <cell title="性别" wx:if="{{gender==0}}" value="未知" class="gender" />
+        <cell title="性别" wx:elif="{{gender==1}}" value="男" class="gender" />
+        <cell title="性别" wx:else="{{gender==2}}" value="女" class="gender" />
+        <cell title="签名" is-link value="{{signature}}" class="signature" />
+        <cell title="关于" is-link class="about-us" />
     </cell-group>
 </view>

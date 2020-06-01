@@ -1,1 +1,9 @@
-<view>{{}}</view>
+<view>
+  <van-search
+    model:value="{{value}}"
+    shape="round"
+    placeholder="请输入搜索关键词"
+    bind:search="onSearch"
+    bind:clear="onClear"
+  />
+</view>
