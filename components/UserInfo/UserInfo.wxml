@@ -1,14 +1,14 @@
 <view class="user-info">
     <view class="avatar-style">
-        <cell title="头像" />
+        <van-cell title="头像" />
         <image src="{{avatar}}" class="img"></image>
     </view>
-    <cell-group>
-        <cell title="昵称" value="{{name}}" class="nick-name" />
-        <cell title="性别" wx:if="{{gender==0}}" value="未知" class="gender" />
-        <cell title="性别" wx:elif="{{gender==1}}" value="男" class="gender" />
-        <cell title="性别" wx:else="{{gender==2}}" value="女" class="gender" />
-        <cell title="签名" is-link value="{{signature}}" class="signature" />
-        <cell title="关于" is-link class="about-us" />
-    </cell-group>
+    <van-cell-group>
+        <van-cell title="昵称" value="{{name}}" class="nick-name" />
+        <van-cell title="性别" wx:if="{{gender==0}}" value="未知" class="gender" />
+        <van-cell title="性别" wx:elif="{{gender==1}}" value="男" class="gender" />
+        <van-cell title="性别" wx:else="{{gender==2}}" value="女" class="gender" />
+        <van-cell title="签名" is-link value="{{signature}}" class="signature" />
+        <van-cell title="更多" is-link url="/pages/more/more" class="more" />
+    </van-cell-group>
 </view>

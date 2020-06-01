@@ -1,6 +1,8 @@
 {
   "component": true,
-  "usingComponents": {"cell":  "/miniprogram_npm/@vant/weapp/cell/index",
-    "cell-group": "/miniprogram_npm/@vant/weapp/cell-group/index"},
+  "usingComponents": {
+    "van-cell":  "/miniprogram_npm/@vant/weapp/cell/index",
+    "van-cell-group": "/miniprogram_npm/@vant/weapp/cell-group/index"
+  },
   "styleIsolation": "isolated"
 }

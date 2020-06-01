@@ -3,7 +3,10 @@
     "pages/test/test",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/user/user"
+    "pages/user/user",
+    "pages/about/about",
+    "pages/more/more",
+    "pages/feedback/feedback"
   ],
   "tabBar": {
     "list": [
