@@ -1,0 +1,5 @@
+<view>
+    <van-cell-group>
+        <van-field value="{{ feedback_content }}" placeholder="请输入反馈" clearable />
+    </van-cell-group>
+</view>

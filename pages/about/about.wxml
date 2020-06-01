@@ -1,0 +1,5 @@
+<view>
+    <van-cell-group>
+        <van-cell value="{{ about_content }}"></van-cell>
+    </van-cell-group>
+</view>
