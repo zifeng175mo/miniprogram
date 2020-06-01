@@ -1,1 +1,30 @@
 /* components/Screen/Screen.wxss */
+.dropdown-menu {
+    display: inline-block;
+    width: 300rpx;
+    height: 50px;
+    height: var(--dropdown-menu-height,50px);
+    border-radius: 15rpx;
+}
+
+.van-dropdown-menu {
+    color: white;
+    background-color: rgb(135,206,235);
+    background-color: var(--dropdown-menu-background-color,rgb(135,206,235));
+    border-radius: 15rpx;
+}
+
+.van-dropdown-menu__title {
+    /*倒三角*/
+    color: royalblue;
+}
+
+.van-ellipsis {
+    /*字体*/
+    color: white;
+}
+
+.van-dropdown-item {
+    /*下拉条目*/
+    width: 300rpx;
+}

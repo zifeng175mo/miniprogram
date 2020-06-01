@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="451ba8a9-483a-44f8-8758-839fe9259c12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Card/Card.json" beforeDir="false" afterPath="$PROJECT_DIR$/components/Card/Card.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Card/Card.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Card/Card.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Screen/Screen.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Screen/Screen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Screen/Screen.json" beforeDir="false" afterPath="$PROJECT_DIR$/components/Screen/Screen.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Screen/Screen.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/Screen/Screen.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/UserInfo/UserInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/components/UserInfo/UserInfo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Screen/Screen.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Screen/Screen.wxss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +49,7 @@
       <updated>1590886567941</updated>
       <workItem from="1590886570296" duration="15493000" />
       <workItem from="1590977371334" duration="3119000" />
+      <workItem from="1591011138346" duration="1373000" />
     </task>
     <servers />
   </component>

@@ -27,7 +27,6 @@
 .mask {
     width: 340rpx;
     height: 400rpx;
-    z-index: 9999;
     top: -541rpx;
     opacity: 0.3;
     position: relative;
