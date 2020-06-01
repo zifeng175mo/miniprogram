@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="451ba8a9-483a-44f8-8758-839fe9259c12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Card/Card.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Card/Card.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/test/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/test/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Search/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Search/Search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Search/Search.json" beforeDir="false" afterPath="$PROJECT_DIR$/components/Search/Search.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Search/Search.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/Search/Search.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/UserInfo/UserInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/UserInfo/UserInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/UserInfo/UserInfo.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/UserInfo/UserInfo.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/UserInfo/UserInfo.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/UserInfo/UserInfo.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/test/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/test/test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/test/test.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/test/test.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user/user.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user/user.wxml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +51,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590886567941</updated>
-      <workItem from="1590886570296" duration="14894000" />
+      <workItem from="1590886570296" duration="15493000" />
+      <workItem from="1590977371334" duration="3119000" />
+      <workItem from="1591011138346" duration="1666000" />
     </task>
     <servers />
   </component>
@@ -56,7 +65,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

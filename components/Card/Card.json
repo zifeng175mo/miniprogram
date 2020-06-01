@@ -1,5 +1,5 @@
 {
   "component": true,
-  "usingComponents": {"tag":  "/miniprogram_npm/vant-weapp/tag/index"},
+  "usingComponents": {"tag":  "/miniprogram_npm/@vant/weapp/tag/index"},
   "styleIsolation": "isolated"
 }

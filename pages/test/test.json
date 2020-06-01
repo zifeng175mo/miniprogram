@@ -1,4 +1,7 @@
 {
-  "usingComponents": {"CardList": "/components/CardList/CardList",
-  "Search": "/components/Search/Search"}
+  "usingComponents": {
+    "CardList": "/components/CardList/CardList",
+    "Screen":  "/components/Screen/Screen"
+  }
+
 }
