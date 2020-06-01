@@ -1,3 +1,6 @@
 {
-  "usingComponents": {"CardList": "/components/CardList/CardList"}
+  "usingComponents": {
+    "CardList": "/components/CardList/CardList",
+    "Screen":  "/components/Screen/Screen"
+  }
 }

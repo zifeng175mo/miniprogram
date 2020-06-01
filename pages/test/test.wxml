@@ -1,4 +1,6 @@
 <!--pages/test/test.wxml-->
+
+<Screen></Screen>
 <CardList cardlist="{{cardlist}}">
 
 </CardList>

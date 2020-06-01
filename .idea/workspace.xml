@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="451ba8a9-483a-44f8-8758-839fe9259c12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Card/Card.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Card/Card.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/test/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/test/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/test/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/test/test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/test/test.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/test/test.wxml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +46,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590886567941</updated>
-      <workItem from="1590886570296" duration="14894000" />
+      <workItem from="1590886570296" duration="15493000" />
+      <workItem from="1590977371334" duration="958000" />
     </task>
     <servers />
   </component>
@@ -56,7 +59,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
