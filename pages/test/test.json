@@ -1,3 +1,4 @@
 {
-  "usingComponents": {"CardList": "/components/CardList/CardList"}
+  "usingComponents": {"CardList": "/components/CardList/CardList",
+  "Search": "/components/Search/Search"}
 }
