@@ -1,14 +1,23 @@
 <view class="user-info">
     <view class="avatar-style">
-        <van-cell title="头像" />
-        <image src="{{avatar}}" class="img"></image>
+        <van-image
+          src="{{avatar}}"
+          class="img"
+          round="{{true}}"
+          width="150"
+          height="150"
+        />
+        <view class="nick-name">{{ name }}</view>
     </view>
     <van-cell-group>
-        <van-cell title="昵称" value="{{name}}" class="nick-name" />
-        <van-cell title="性别" wx:if="{{gender==0}}" value="未知" class="gender" />
-        <van-cell title="性别" wx:elif="{{gender==1}}" value="男" class="gender" />
-        <van-cell title="性别" wx:else="{{gender==2}}" value="女" class="gender" />
-        <van-cell title="签名" is-link value="{{signature}}" class="signature" />
-        <van-cell title="更多" is-link url="/pages/more/more" class="more" />
+<!--        <van-cell title="性别" wx:if="{{gender==0}}" value="未知" class="gender" />-->
+<!--        <van-cell title="性别" wx:elif="{{gender==1}}" value="男" class="gender" />-->
+<!--        <van-cell title="性别" wx:else="{{gender==2}}" value="女" class="gender" />-->
+<!--        <van-cell title="签名" is-link value="{{signature}}" class="signature" />-->
+        <van-cell icon="chat-o" title="消息" is-link url="/pages/message/message" class="message" />
+        <van-cell icon="bar-chart-o" title="统计" is-link url="/pages/statistics/statistics" class="statistics"/>
+        <van-cell icon="friends-o" title="关于" is-link url="/pages/about/about" class="about" />
+        <van-cell icon="question-o" title="帮助" is-link url="/pages/help/help" class="help"/>
+        <van-cell icon="comment-o" title="吐槽" is-link url="/pages/feedback/feedback" class="feedback" />
     </van-cell-group>
 </view>

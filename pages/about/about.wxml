@@ -1,5 +1,15 @@
-<view>
-    <van-cell-group>
-        <van-cell value="{{ about_content }}"></van-cell>
-    </van-cell-group>
+<view class="all">
+    <view class="top">
+        <van-image
+            src="{{ img }}"
+            class="img"
+            width="150"
+            height="150"
+            round="{{ true }}"
+        />
+    </view>
+    <view class="about-info">
+        <view class="title">{{title}}</view>
+        <view class="content">{{content}}</view>
+    </view>
 </view>

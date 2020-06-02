@@ -23,6 +23,15 @@ Component({
         },
         onClear() {
 
+        },
+        onInput(val) {
+
+        },
+        onFocus() {
+
+        },
+        onBlur() {
+
         }
     }
 })

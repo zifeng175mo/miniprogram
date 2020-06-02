@@ -1,22 +1,22 @@
 .user-info {
     width:100%;
-    height:510rpx;
+    height:auto;
     font-size: 30rpx;
     background: #FFF;
     box-shadow: 100rpx 0 100rpx 10rpx #EEE;
     overflow:hidden;
 }
 .img {
-    width: 100rpx;
-    height: 100rpx;
-    right: 20rpx;
-    top:auto;
-    bottom:auto;
-    position: absolute;
+
 }
 
 .avatar-style {
     display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500rpx;
+    flex-direction: column;
 }
 .nick-name {
 
