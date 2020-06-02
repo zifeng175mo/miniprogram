@@ -1,0 +1,45 @@
+.title {
+    font-family: Georgia,sans-serif,fantasy;
+    font-size: 35rpx;
+    font-weight: 100;
+    margin-bottom: 40rpx;
+
+
+}
+
+.content {
+    font-family: Georgia,sans-serif,fantasy;
+    font-size:28rpx;
+    font-weight: 100;
+
+}
+
+.about-info {
+    display: block;
+    padding: 20rpx 40rpx 0 40rpx;
+    background-color: #FAFAFA;
+    height:500rpx;
+    width:100%;
+    word-spacing: 0.6em;
+    line-height: 1.5em;
+    word-wrap: break-word;
+    overflow: hidden;
+    word-break: break-all;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:600rpx;
+    width:100%;
+}
+
+.img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.all {
+    width:100%;
+}

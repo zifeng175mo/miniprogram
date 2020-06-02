@@ -5,5 +5,8 @@
     placeholder="请输入搜索关键词"
     bind:search="onSearch"
     bind:clear="onClear"
+    bind:focus="onFoucus"
+    bind:blur="onBlur"
+    bind:input="Oninput"
   />
 </view>

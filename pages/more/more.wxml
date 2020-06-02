@@ -1,7 +1,0 @@
-<view>
-    <van-cell-group>
-        <van-cell title="反馈" is-link url="/pages/feedback/feedback" class="feedback" />
-        <van-cell title="关于" is-link url="/pages/about/about" class="about" />
-        <van-cell title="导出" is-link class="derive"/>
-    </van-cell-group>
-</view>

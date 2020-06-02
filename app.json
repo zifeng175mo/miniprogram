@@ -5,18 +5,26 @@
     "pages/logs/logs",
     "pages/user/user",
     "pages/about/about",
-    "pages/more/more",
-    "pages/feedback/feedback"
+    "pages/feedback/feedback",
+    "pages/help/help",
+    "pages/message/message",
+    "pages/statistics/statistics",
+    "pages/cardmarket/cardmarket"
+
   ],
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/user/user",
-        "text": "我的"
+        "pagePath": "pages/cardmarket/cardmarket",
+        "text": "首页"
       },
       {
         "pagePath": "pages/test/test",
         "text": "卡片"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的"
       }
     ]
   },

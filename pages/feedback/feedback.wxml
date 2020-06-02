@@ -1,5 +1,14 @@
 <view>
     <van-cell-group>
-        <van-field value="{{ feedback_content }}" placeholder="请输入反馈" clearable />
+        <van-field
+          value="{{ feedback_content }}"
+          placeholder="请输入留言"
+          maxlength="300"
+          show-word-limit
+          type="textarea"
+          rows="1"
+          autosize
+          border="{{ false }}"
+          clearable />
     </van-cell-group>
 </view>
