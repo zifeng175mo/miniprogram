@@ -3,7 +3,6 @@
     height:auto;
     font-size: 30rpx;
     background: #FFF;
-    box-shadow: 100rpx 0 100rpx 10rpx #EEE;
     overflow:hidden;
 }
 .img {
@@ -15,21 +14,26 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 500rpx;
+    height: 400rpx;
     flex-direction: column;
+    background-color: #FAFAFA;
 }
 .nick-name {
-
+    font-family: sans-serif,fantasy,Georgia;
+    font-size: 35rpx;
+    font-weight: 500;
+    word-spacing: 0.4em;
+    margin-top: 10rpx;
 }
 
-.gender {
-
-}
-
-.signature {
-
-}
-
-.more {
-
-}
+/*.blanking {*/
+/*    display: block;*/
+/*    background-color: #FCFCFC;*/
+/*    height: 20rpx;*/
+/*}*/
+/*.user-name {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*}*/

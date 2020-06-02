@@ -5,7 +5,7 @@ Page({
      * 页面的初始数据
      */
     data: {
-        name: 'YRTSWEZ',
+        name: '流水恋落花',
         gender: 1,
         avatar: '/media/img/1.jpg',
         signature: '我思故我在~'
