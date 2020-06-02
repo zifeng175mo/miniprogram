@@ -1,3 +1,11 @@
+<page-meta>
+    <navigation-bar
+        title="数据图"
+        loading="{{false}}"
+        background-color="#fcfcfc"
+        front-color="#000000"
+    />
+</page-meta>
 <view>
 
 </view>
