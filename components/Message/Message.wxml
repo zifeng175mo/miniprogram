@@ -1,3 +1,3 @@
 <view>
-
+    <van-icon name="warn-o" />
 </view>
