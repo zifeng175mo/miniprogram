@@ -7,5 +7,12 @@
     />
 </page-meta>
 <view>
-
+    <van-radio-group
+        value="{{ radio1 }}"
+        data-key="radio1"
+        bind:change="onChange"
+    >
+    <van-radio name="1" custom-class="demo-radio">单选框 1</van-radio>
+    <van-radio name="2">单选框 2</van-radio>
+    </van-radio-group>
 </view>

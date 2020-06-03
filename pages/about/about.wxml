@@ -16,11 +16,10 @@
             round="{{ true }}"
         />
         <view class="name">WaterDrop</view>
-        <view class="tip">点击保存二维码图片</view>
+<!--        <view class="tip">点击保存二维码图片</view>-->
     </view>
     <view class="about-info-background {{extra}}">
         <view class="about-info">
-            <view class="title">{{title}}</view>
             <view class="content">{{content}}</view>
         </view>
     </view>

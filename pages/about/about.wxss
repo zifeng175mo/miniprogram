@@ -15,7 +15,7 @@
 .about-info-background {
     display:flex;
     justify-content: center;
-    background-color: #FAFAFA;
+    /*background-color: #FAFAFA;*/
     overflow: hidden;
     height: 50%;
     position: absolute;
@@ -43,6 +43,8 @@
     position: absolute;
     top: 0;
     bottom: 50%;
+    /*background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%); !* 仁慈而又坚强 *!*/
+    /*background-image: linear-gradient(to left top, #a8edea 0%, #fed6e3 100%);!* 23 *!*/
 }
 
 .img {
@@ -56,6 +58,7 @@
     margin: 0;
     padding: 0;
     position: absolute;
+    background-image: linear-gradient(to left top, #a8edea 0%, #fed6e3 100%);/* 23 */
 }
 
 .tip {
@@ -67,8 +70,8 @@
 
 .name {
     font-family: sans-serif,fantasy,Georgia;
-    font-size:28rpx;
-    font-weight: 100;
-    color: paleturquoise;
+    font-size:32rpx;
+    font-weight: 500;
+    /*color: paleturquoise;*/
     margin-top: 50rpx;
 }

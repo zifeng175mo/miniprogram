@@ -1,11 +1,17 @@
 // pages/feedback/feedback.js
+import Dialog from '../../miniprogram_npm/@vant/weapp/dialog/dialog';
+
+const message = '代码是写出来给人看的，附带能在机器上运行';
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
-        feedback_content: "YXDZTHZ"
+        content: '',
+        radio1: '1',
+        title: '确认',
+        message: '您确认要提交这个反馈吗？'
     },
 
     /**
@@ -31,6 +37,20 @@ Page({
         //   fail: res=> {
         //   }
         // })
+    },
+
+    onChange(event) {
+        const { key } = event.currentTarget.dataset;
+        this.setData({
+           [key]: event.detail
+        });
+    },
+
+    onClickConfirm() {
+        Dialog.confirm({
+            title: '标题',
+            message
+        });
     },
 
     /**
